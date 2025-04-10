@@ -46,5 +46,63 @@ peserta berhasil mengkonfigurasi dan lolos atau tidak.
 
 ## Rumusan Masalah
 
+Adapun rumusan masalah berdasarkan latar belakang diatas yaitu:
+1. Bagaimana membuat CLI RouterOS dapat diakses melalui web?
+1. Bagaimana cara mengintegrasikan GNS3 server dengan web?
+1. Bagaimana cara mendapatkan konfigurasi setelah peserta selesai mengerjakan?
+1. Bagaimana menilai hasil konfigurasi RouterOS peserta?
+
+## Tujuan 
+Adapun tujuan dalam penelitian ini adalah:
+1. Membuat sistem pengujian konfigurasi RouterOS berbasis web.
+1. Membuat sistem penilaian konfigurasi RouterOS.
+
+<!-- use blackbox testing? -->
+
+## Manfaat
+Manfaat yang dapat dihasilkan dari penelitian ini antara lain:
+1. Mendapatkan sebuah sistem pengujian konfigurasi RouterOS berbasis web.
+2. Mempermudah pihak Mikrotik dan pihak ketiga penyelenggara sertifikasi 
+dalam melaksanakan pengujian sertifikasi.
+3. Mendapatkan sistem yang bisa diadaptasi bukan hanya untuk Mikrotik namun 
+juga pihak lain yang membutuhkan sistem serupa.
+
+## Batasan Masalah 
+Adapun batasan masalah yang digunakan untuk menghindari penyimpangan dari 
+judul dan tujuan adalah sebagai berikut ini:
+1. Antarmuka yang digunakan peserta untuk mengkonfigurasi RouterOS adalah CLI 
+_via_ web.
+1. Penilaian diambil berdasarkan kecocokan konfigurasi dengan poin studi kasus 
+yang diujikan.
+1. Sistem yang digunakan untuk menjalankan RouterOS berbasis Virtualisasi yang
+dijalankan dengan QEMU dalam topologi GNS3.
+1. Data konfigurasi RouterOS dikirim menggunakan API yang disediakan oleh 
+RouterOS
+1. Dukungan untuk banyak pengguna, keamanan pengguna, serta keamanan sistem 
+dari serangan luar tidak akan dibahas dalam penelitian ini.
+1. Konfigurasi yang diujikan meliputi pengalamatan IP, dasar daftar alamat IP, _interface bridging_,
+_interface comments_, _static routing_, _firewall filtering_ , dan NAT.
+
+# BAB II - KAJIAN PUSTAKA
+
+## Penelitian Terdahulu
+
+Sebelumnya sudah ada penelitian terkait pelatihan teknisi untuk mengkonfigurasi 
+router berbasis web yang ditulis oleh Novalino Reynaldi Anas berjudul "
+ PERANCANGAN SISTEM INFORMASI UNTUK KONFIGURASI PERANGKAT JARINGAN BERBASIS WEB
+: Studi Kasus PT. Indonesia Comnets Plus". Metode yang digunakan dalam 
+pengujian adalah _blackbox testing_ dimana hanya menguji keberhasilan 
+konfigurasi apakah berjalan sesuai ekspektasi. Tentu dalam penelitian tersebut 
+sudah cukup untuk pengujian. Namun dalam pengujian tersebut digunakan router 
+Mikrotik fisik yang tentu akan menjadi halangan ketika harus dilakukan 
+pengujian seperti routing karena butuh beberapa router fisik sekaligus.
+(A. Novalino Reynaldi, 2020).
+
+Penelitian mengenai integrasi CLI router dengan GNS3 sebagai virtualisasi 
+topologi jaringan pernah dilakukan oleh Elin Sylvania, Suroso, dan Irwan Hadi
+dalam artikel yang berjudul "Pengujian Konfigurasi Otomatis Penambahan Gateway
+Pada Virtual Router Menggunakan Aplikasi Otomatisasi Jaringan Berbasis Web" 
+dimana konfigurasi dilakukan dengan memasukkan baris konfigurasi melalui 
+_text input_ via web yang dibuat sendiri. 
 
 
