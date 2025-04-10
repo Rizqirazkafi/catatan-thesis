@@ -103,6 +103,16 @@ topologi jaringan pernah dilakukan oleh Elin Sylvania, Suroso, dan Irwan Hadi
 dalam artikel yang berjudul "Pengujian Konfigurasi Otomatis Penambahan Gateway
 Pada Virtual Router Menggunakan Aplikasi Otomatisasi Jaringan Berbasis Web" 
 dimana konfigurasi dilakukan dengan memasukkan baris konfigurasi melalui 
-_text input_ via web yang dibuat sendiri. 
+_text input_ via web yang dibuat sendiri. Hasilnya konfigurasi penambahan 
+gateway otomatis dapat dilakukan.
 
+
+# BAB III - METODE PENELITIAN
+
+Terdapat tahapan-tahapan yang masuk dalam metodologi penelitian sebagai 
+pedoman agar tujuan utama dari penelitian ini tercapai dan tidak menyimpang
+dari tujuan awal.
+
+## Metode Penelitian
+Metode penelitian yang digunakan adalah _waterfall_
 
