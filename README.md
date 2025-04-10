@@ -5,38 +5,14 @@
 ## BAB I - PENDAHULUAN
 
 ### Latar Belakang
-Dalam beberapa tahun ini, sistem operasi berbasis GNU/Linux, yaitu NixOS mulai
-naik daun. Sistem operasi ini dikenal dengan fiturnya yaitu pendeklarasian
-sistem operasi dalam konfigurasi yang absolut. Sistem konfigurasi NixOS
-membuatnya dapat di deploy secara berulang dan dipastikan hasilnya satu banding
-satu dengan yang lain. Ini sangat cocok digunakan apabila kita ingin melakukan
-deployment yang sama secara berulang dan membuatnya cocok dijadikan sebagai
-sistem operasi untuk server. 
 
-Namun sangat disayangkan bahwa hanya sedikit penyedia layanan cloud Virtual
-Private Server (VPS) yang memberikan opsi NixOS sebagai bagian dari layanan
-mereka. Tentu hal ini bisa diatasi dengan nixos-anywhere yang dapat mengubah
-distribusi GNU/Linux apapun menjadi NixOS dengan media kexec untuk memulai
-NixOS installer. Cara kedua adalah dengan mengunggah _custom image_ berisikan
-NixOS, namun tidak semua penyedia layanan berbasis _cloud_ mendukung cara ini.
-
-Proxmox adalah sistem operasi berbasis debian yang dikhususkan untuk 
-virtualisasi mulai dari skala kecil hingga besar. Dengan Proxmox, kita bisa 
-membuat mesin virtual apapun dengan lebih mudah dan rapih. Dikarenakan Proxmox 
-berbasis Linux Kernel Virtual Machine (KVM) yang merupakan Hypervisor tipe-1,
-membuat Proxmox jauh lebih fleksibel dibandingan Hypervisor tipe-2 seperti 
-VirtualBox. Kita bisa melakukan _clustering, hardware passthrough, backup,_ 
-bahkan menggunakan CEPH sebagai media penyimpanan VM.
-
-Ansible merupakan perangkat lunak otomasi yang dikembangkan oleh Red Hat untuk 
-melakukan manajemen pada sistem dengan skala yang luas
-
-Berdasarkan landasan tersebut, penulis ingin membuat solusi bagi penyedia 
-layanan _cloud_ yang menggunakan Proxmox sebagai _backend_ untuk menyediakan 
-opsi NixOS dalam layanan VPS mereka dengan membuat jembatan antara antar muka 
-web dan Proxmox.
-
-
+Pada pembuatan _Virtual Private Server_(VPS), penggunaan cloud init diperlukan
+untuk otomasi sehingga bisa mengkonfigurasi server sesuai kebutuhan pelanggan
+dengan mudah dan cepat. Namun yang jadi permasalah ada tidak semua sistem 
+operasi berbasis GNU/Linux mendukung cara tersebut, terutama NixOS. Ini 
+dikarenakan NixOS merupakan sistem operasi yang bersifat _atomic_ dan _immutable_
+dimana perubahan sistem operasi dilakukan dengan merubah dan mengiplementasikan
+konfigurasi. 
 ### Rumusan Masalah
 Adapun rumusan masalah berdasarkan latar belakang diatas yaitu:
 1. Bagaimana cara mengotomasi Proxmox VE untuk mendeploy VM NixOS?
