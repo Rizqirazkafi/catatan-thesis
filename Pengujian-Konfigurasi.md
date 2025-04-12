@@ -114,5 +114,7 @@ pedoman agar tujuan utama dari penelitian ini tercapai dan tidak menyimpang
 dari tujuan awal.
 
 ## Metode Penelitian
-Metode penelitian yang digunakan adalah _waterfall_
+Metode penelitian yang digunakan adalah _waterfall_. Penerapan metode bertujuan
+untuk mengembangkan sistem pengujian yang ringkas dan portabel.
+
 
