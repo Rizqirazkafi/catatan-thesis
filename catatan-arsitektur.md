@@ -6,3 +6,5 @@
 1. API menunggu beberapa detik kemudian menguji kembali rute  dari PC A ke PC B
 1. Port Router B ke Router D akan diaktifkan kembali dan diuji kembali
 1. API Server aplikasi akan meminta konfigurasi semua router kemudian di analisis menggunakan metode API Checking
+
+> Data hasil traceroute akan dianalisa secara lokal dan di pipe ke stdout
