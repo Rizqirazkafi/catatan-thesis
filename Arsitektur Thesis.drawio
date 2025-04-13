@@ -71,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cfh7iHXlZL_Zqh1E1O3E-66" value="" style="html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.cloud;fontColor=#ffffff;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="275" y="530" width="90" height="50" as="geometry" />
+          <mxGeometry x="275" y="500" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Cfh7iHXlZL_Zqh1E1O3E-69" value="&lt;ol&gt;&lt;li&gt;Saat testing, konfigurasi dilakukan seperti biasa dengan ada interface yang menghadap ke API Server aplikasi yang tidak boleh di interupt accessnya&lt;/li&gt;&lt;li&gt;Ketika konfigurasi menggunakan DHCP pada PC A &amp;amp; B, maka peserta wajib mencantumkan alamat IP dan harus mengaktifkan DHCP reservation&lt;/li&gt;&lt;li&gt;Membuat bash script untuk menguji rute dari PC A ke PC B&lt;/li&gt;&lt;li&gt;Pengujian pertama dilakukan dengan path Router B ke Router D&lt;/li&gt;&lt;li&gt;Path Router B ke Router D akan diputus dengan menonaktifkan status port Router B yang menuju Router D&lt;/li&gt;&lt;li&gt;API menunggu beberapa detik kemudian menguji kembali rute&amp;nbsp; dari PC A ke PC B&lt;/li&gt;&lt;li&gt;Port Router B ke Router D akan diaktifkan kembali dan diuji kembali&lt;/li&gt;&lt;li&gt;API Server aplikasi akan meminta konfigurasi semua router kemudian di analisis menggunakan metode API Checking&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontFamily=Helvetica;fontSize=25;fontColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="850" y="210" width="510" height="800" as="geometry" />
@@ -138,6 +138,12 @@
         </mxCell>
         <mxCell id="piJTOIK80o-N9y1MMaX8-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;PC B&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="666.1700000000001" y="280" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piJTOIK80o-N9y1MMaX8-24" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piJTOIK80o-N9y1MMaX8-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;virbr0&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=#000000;labelBackgroundColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="550" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
