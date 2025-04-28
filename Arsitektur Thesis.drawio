@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14">
   <diagram name="Page-1" id="Ru_C6dewD2kKkyqxHlR9">
-    <mxGraphModel dx="1412" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="564" dy="339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -282,6 +282,18 @@
         </mxCell>
         <mxCell id="Qyz1Q4rKfuGf433Q5lBs-39" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Eth 2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#E4FDE1;labelBackgroundColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="510" y="1310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6twpE6Sk5iSr3P57Gsnb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6twpE6Sk5iSr3P57Gsnb-1" target="6twpE6Sk5iSr3P57Gsnb-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6twpE6Sk5iSr3P57Gsnb-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6twpE6Sk5iSr3P57Gsnb-2" value="Peserta Login" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6twpE6Sk5iSr3P57Gsnb-4" value="Web menampilkan topologi, tugas, dan CLI " style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1520" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
