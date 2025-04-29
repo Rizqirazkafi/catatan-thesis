@@ -392,6 +392,11 @@
         <mxCell id="mV5U8Zs8gygm2e4yxNgG-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mV5U8Zs8gygm2e4yxNgG-17" target="mV5U8Zs8gygm2e4yxNgG-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mV5U8Zs8gygm2e4yxNgG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mV5U8Zs8gygm2e4yxNgG-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="2240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mV5U8Zs8gygm2e4yxNgG-17" value="&lt;div&gt;Sesuai&lt;/div&gt;&lt;div&gt;Persyaratan?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1360" y="2130" width="100" height="100" as="geometry" />
         </mxCell>
@@ -420,6 +425,12 @@
         </mxCell>
         <mxCell id="mV5U8Zs8gygm2e4yxNgG-28" value="&lt;div&gt;Dynamic Routing&lt;/div&gt;&lt;div&gt;Benar&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="1525" y="2320" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mV5U8Zs8gygm2e4yxNgG-31" value="Tes Gagal" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="2240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mV5U8Zs8gygm2e4yxNgG-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mV5U8Zs8gygm2e4yxNgG-14" target="mV5U8Zs8gygm2e4yxNgG-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
